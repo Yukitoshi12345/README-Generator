@@ -6,7 +6,7 @@ Introducing a command-line application designed to efficiently generate professi
 ## Table of Contents
 
 - [User Story](#user-story)
-- [Objectives](#objectives)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Technologies Used](#technologies-used)
 - [Video](#video)
 - [Explanation of Video](#explanation-of-video)
@@ -21,7 +21,7 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
 
-## Objectives
+## Acceptance Criteria
 
 ```md
 GIVEN a command-line application that accepts user input
