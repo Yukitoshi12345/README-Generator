@@ -9,7 +9,6 @@ Introducing a command-line application designed to efficiently generate professi
 - [Acceptance Criteria](#acceptance-criteria)
 - [Technologies Used](#technologies-used)
 - [Video](#video)
-- [Explanation of Video](#explanation-of-video)
 - [Output](#output)
 - [Installation](#installation)
 
