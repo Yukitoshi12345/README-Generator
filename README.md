@@ -40,5 +40,5 @@ The following criteria has to be met:
 
 ## Installation
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
-[https://github.com/yukitoshi12345/Work-Day-Scheduler](https://github.com/yukitoshi12345/Work-Day-Scheduler)
+[https://github.com/yukitoshi12345/Professional-README-Generator](https://github.com/yukitoshi12345/Professional-README-Generator)
 
