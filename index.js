@@ -16,7 +16,7 @@ const questions = [
         name: 'email',
         message: 'What is your contact email?',
     },
-    
+
     {
         type: 'input',
         name: 'Title',
@@ -62,7 +62,11 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        err ? console.log(err) : console.log('Your new README is ready to guide the world!')
+    });
+}
 
 // TODO: Create a function to initialize app
 function init() {}
