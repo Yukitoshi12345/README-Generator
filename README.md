@@ -51,8 +51,7 @@ THEN I am taken to the corresponding section of the README
 
 
 ## Output
-
-
+Running the README generator fulfills your wish for a quick and professional README for your new project. The resulting README.md boasts a compelling title you define, a handy clickable Table of Contents, and informative sections covering your project's Description, Installation Instruction, Usage Information, Contribution Guidelines, Test instructions, Licensing Terms (with a badge and explanation), and even your contact information via GitHub username and email address. This comprehensive and well-formatted README is ready to be shared and integrated into your project repository, saving you time, effort, and enhancing your project's professional image.
 
 ## Installation
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
