@@ -72,7 +72,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((answers) => {
-            writeToFile("README.md", generateMarkdown(answers));
+            writeToFile("Generated-README.md", generateMarkdown(answers));
         })
         .catch((error) => console.error('Failed to generate a README file: ', error));
 }
