@@ -1,19 +1,19 @@
 // TODO: Include packages needed for this application
-const inquirer = require(`inqurier`);
+const inquirer = require(`inquirer`);
 const fs = require(`fs`);
-const generateMarkdown = require('./utils/generatedmarkdown.js')
+const generateMarkdown = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = [
     
     {
         type: 'input',
-        name: 'github',
+        name: 'Github Username',
         message: 'What is your GitHub username?',
     },
 
     {
         type: 'input',
-        name: 'email',
+        name: 'Email',
         message: 'What is your contact email?',
     },
 
@@ -55,9 +55,9 @@ const questions = [
 
     {
         type: 'list',
-        name: 'license',
+        name: 'License',
         message: 'Choose a License for this project',
-        choices: ['MIT', 'Apache 2.0', 'BSL 1.0', 'BSD 2', 'BSD 3', 'CCZ 1.0', 'GPL 2.0', 'GPL 2.1', 'GPL 3.0', 'Affero GPL 3.0', 'EPL 2.0', 'MPL 2.0', 'The Unlicense', 'None'],
+        choices: ['MIT', 'Apache 2.0', 'Boost 1.0', 'BSD 2', 'BSD 3', 'CCZ 1.0', 'GPL 2.0', 'GPL 2.1', 'GPL 3.0', 'Affero GPL 3.0', 'EPL 2.0', 'MPL 2.0', 'The Unlicense', 'None'],
     },
 ];
 
@@ -69,7 +69,13 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+        .then((answers) => {
+            writeToFile("README.md", generateMarkdown(answers));
+        })
+        .catch((err) => console.error('Failed to generate a README file: ', err));
+}
 
 // Function call to initialize app
 init();
