@@ -70,7 +70,7 @@ function renderLicenseLink(license) {
     link = "https://opensource.org/license/bsd-3-clause/";
   }
   else if (license === "CC0 1.0") {
-    link = "!https://creativecommons.org/publicdomain/zero/1.0/legalcode";
+    link = "https://creativecommons.org/publicdomain/zero/1.0/legalcode";
   }
   else if (license === "GPL 2.0") {
     link = "https://opensource.org/license/bsd-2-clause/";
