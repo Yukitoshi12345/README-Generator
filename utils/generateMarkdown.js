@@ -8,8 +8,8 @@ function renderLicenseBadge(license) {
   if (license === "Apache 2.0") {
     badge = "![Apache 2.0 licence badge](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
   }
-  else if (license === "Boost 1.0") {
-    badge = "![Boost 1.0 licence badge](https://img.shields.io/badge/License-Boost_1.0-orange.svg)";
+  else if (license === "BSL 1.0") {
+    badge = "![BSL 1.0 licence badge](https://img.shields.io/badge/License-BSL_1.0-orange.svg)";
   }
   else if (license === "BSD 2.0") {
     badge = "![BSD 2.0 licence badge](https://img.shields.io/badge/License-BSD_2.0-orange.svg)";
@@ -17,11 +17,8 @@ function renderLicenseBadge(license) {
   else if (license === "BSD 3.0") {
     badge = "![BSD 3.0 licence badge](https://img.shields.io/badge/License-BSD_3.0-orange.svg)";
   }
-  else if (license === "CCZ 1.0") {
-    badge = "![CCZ 1.0 licence badge](https://img.shields.io/badge/License-CCZ_1.0-orange.svg)";
-  }
-  else if (license === "Boost 1.0") {
-    badge = "![Boost 1.0 licence badge](https://img.shields.io/badge/License-Boost_1.0-orange.svg)";
+  else if (license === "CC0 1.0") {
+    badge = "![CC0 1.0 licence badge](https://img.shields.io/badge/License-CC0_1.0-orange.svg)";
   }
   else if (license === "GPL 2.0") {
     badge = "![GPL 2.0 licence badge](https://img.shields.io/badge/License-GPL_2.0-blue.svg)";
@@ -51,13 +48,58 @@ function renderLicenseBadge(license) {
     badge = "![None licence badge](https://img.shields.io/badge/License-None-red.svg)";
   }
   else {
-    return badge;
+    return "";
   }
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  let link = "";
+
+  if (license === "Apache 2.0") {
+    link = "https://opensource.org/licenses/Apache-2.0";
+  }
+  else if (license === "Boost 1.0") {
+    link = "https://opensource.org/license/bsl-1-0/";
+  }
+  else if (license === "BSD 2.0") {
+    link = "https://opensource.org/license/bsd-2-clause/";
+  }
+  else if (license === "BSD 3.0") {
+    link = "https://opensource.org/license/bsd-3-clause/";
+  }
+  else if (license === "CC0 1.0") {
+    link = "!https://creativecommons.org/publicdomain/zero/1.0/legalcode";
+  }
+  else if (license === "GPL 2.0") {
+    link = "https://opensource.org/license/bsd-2-clause/";
+  }
+  else if (license === "GPL 2.1") {
+    link = "https://opensource.org/licenses/BSD-2-Clause";
+  }
+  else if (license === "GPL 3.0") {
+    link = "https://opensource.org/license/bsd-3-clause/";
+  }
+  else if (license === "Affero GPL 3.0") {
+    link = "https://www.gnu.org/licenses/agpl-3.0.html";
+  }
+  else if (license === "EPL 2.0") {
+    link = "https://www.eclipse.org/legal/epl-2.0/";
+  }
+  else if (license === "MIT") {
+    link = "!https://opensource.org/licenses/MIT";
+  }
+  else if (license === "MPL 2.0") {
+    link = "https://www.mozilla.org/en-US/MPL/2.0/";
+  }
+  else if (license === "The Unlicense") {
+    link = "http://unlicense.org/";
+  }
+  else {
+    return "";
+  }
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
