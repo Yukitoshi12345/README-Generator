@@ -56,7 +56,7 @@ const questions = [
     {
         name: 'License',
         message: 'Choose a License for this project',
-        choices: ['MIT', 'Apache 2.0', 'Boost 1.0', 'BSD 2', 'BSD 3', 'CCZ 1.0', 'GPL 2.0', 'GPL 2.1', 'GPL 3.0', 'Affero GPL 3.0', 'EPL 2.0', 'MPL 2.0', 'The Unlicense', 'None'],
+        choices: ['Apache 2.0', 'Boost 1.0', 'BSD 2.0', 'BSD 3.0', 'CCZ 1.0', 'GPL 2.0', 'GPL 2.1', 'GPL 3.0', 'Affero GPL 3.0', 'EPL 2.0', 'MIT', 'MPL 2.0', 'The Unlicense', 'None'],
         type: 'list'
     },
 ];
