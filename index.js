@@ -6,7 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown')
 const questions = [
     
     {
-        name: 'Github Username',
+        name: 'GithubUsername',
         message: 'What is your GitHub username?',
         type: 'input'
     },
@@ -30,25 +30,25 @@ const questions = [
     },
 
     {
-        name: 'Installation Instructions',
+        name: 'InstallationInstruction',
         message: 'Walk me through the installation instruction someone needs to take to set up this project.',
         type: 'input'
     },
 
     {
-        name: 'Usage Information',
+        name: 'UsageInformation',
         message: 'Provide the use of this project.',
         type: 'input'
     },
 
     {
-        name: 'Contribution Guidelines',
+        name: 'ContributionGuidelines',
         message: 'How can users contribute to this project?',
         type: 'input'
     },
 
     {
-        name: 'Test Instructions',
+        name: 'TestInstruction',
         message: 'Provide instructions to test this project.',
         type: 'input'
     },
