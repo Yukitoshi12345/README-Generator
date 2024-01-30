@@ -50,6 +50,7 @@ function renderLicenseBadge(license) {
   else {
     return "";
   }
+  return badge
 };
 
 // TODO: Create a function that returns the license link
@@ -109,7 +110,7 @@ function renderLicenseSection(license) {
     return '';
   } 
   else {
-    return `This application is licensed under ${license}. <${renderLicenseLink(license)}>`;
+    return `This application is licensed under [${license}](${renderLicenseLink(license)}).`;
   }
 };
 
@@ -141,8 +142,6 @@ function generateMarkdown(data) {
 
   ## License
   ${renderLicenseSection(data.license)};
-
-  Click for licensing detail: ${renderLicenseLink(data.License)}
 
   ## Contribution Guidelines
   ${data.ContributionGuidelines}
