@@ -99,6 +99,7 @@ function renderLicenseLink(license) {
   else {
     return "";
   }
+  return link
 };
 
 // TODO: Create a function that returns the license section of README
