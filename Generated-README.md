@@ -1,6 +1,5 @@
 # wedew
   
-  // Badge
   ![Apache 2.0 licence badge](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
   ## Description
