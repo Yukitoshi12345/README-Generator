@@ -108,7 +108,7 @@ function renderLicenseSection(license) {
     return '';
   } 
   else {
-    return `This application is licensed under ${license}. Click for licensing detail: <${renderLicenseLink(license)}>`;
+    return `This application is licensed under ${license}. <${renderLicenseLink(license)}>`;
   }
 };
 
@@ -139,7 +139,9 @@ function generateMarkdown(data) {
   ${data.UsageInformation}
 
   ## License
-  ${renderLicenseSection(data.License)};
+  ${renderLicenseSection(data.license)};
+
+  Click for licensing detail: ${renderLicenseLink(data.License)}
 
   ## Contribution Guidelines
   ${data.ContributionGuidelines}
