@@ -117,7 +117,7 @@ function generateMarkdown(data) {
   return `# ${data.Title}
   
   // Badge
-  ${renderLicenseBadge(data.License)}
+  ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.Description}
@@ -139,7 +139,7 @@ function generateMarkdown(data) {
   ${data.UsageInformation}
 
   ## License
-  ${renderLicenseSection(data.license)};
+  ${renderLicenseSection(data.license)}
 
   ## Contribution Guidelines
   ${data.ContributionGuidelines}
@@ -150,7 +150,7 @@ function generateMarkdown(data) {
   ## Questions
   If you have any questions, please reach out on GitHub
   [${data.GithubUsername}](https://github.com/${data.GithubUsername})
-  or Via Email:
+  or via Email:
   ${data.Email}
 `;
 }
