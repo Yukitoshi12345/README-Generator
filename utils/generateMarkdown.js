@@ -60,7 +60,7 @@ function renderLicenseLink(license) {
   if (license === "Apache 2.0") {
     link = "https://opensource.org/licenses/Apache-2.0";
   }
-  else if (license === "Boost 1.0") {
+  else if (license === "BSL 1.0") {
     link = "https://opensource.org/license/bsl-1-0/";
   }
   else if (license === "BSD 2.0") {
@@ -103,12 +103,55 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license === 'None') {
+    return '';
+  } 
+  else {
+    return `This application is licensed under ${license}. Click for licensing detail: <${renderLicenseLink(license)}>`;
+  }
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  
+  // Badge
+  ${renderLicenseBadge(data.license)}
 
+  ## Description
+  ${data.description}
+
+  ## Table of Contents
+  
+  - [Description](#description)
+  - [Installation Instruction](#installation-instruction)
+  - [Usage Information](#usage-information)
+  - [License](#license)
+  - [Contribution Guidelines](#contribution-guidelines)
+  - [Test Instructions](#test-instructions)
+  - [Questions](#questions)
+
+  ## Installation Instruction
+  ${data.installation}
+
+  ## Usage Information
+  ${data.usage}
+
+  ## License
+  ${renderLicenseSection(data.license)};
+
+  ## Contribution Guidelines
+  ${data.contributing}
+
+  ## Test Instructions
+  ${data.tests}
+
+  ## Questions
+  If you have any questions, please reach out on GitHub
+  [${data.github}](https://github.com/${data.github})
+  or Via Email:
+  ${data.email}
 `;
 }
 
