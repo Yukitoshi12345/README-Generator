@@ -87,7 +87,7 @@ function renderLicenseLink(license) {
     link = "https://www.eclipse.org/legal/epl-2.0/";
   }
   else if (license === "MIT") {
-    link = "!https://opensource.org/licenses/MIT";
+    link = "https://opensource.org/licenses/MIT";
   }
   else if (license === "MPL 2.0") {
     link = "https://www.mozilla.org/en-US/MPL/2.0/";
@@ -142,9 +142,9 @@ function generateMarkdown(data) {
   ${data.ContributionGuidelines}.
 
   ## Test Instruction
-  \`
+  \` <br>
   ${data.TestInstruction}
-  
+
   \`
 
   ## Questions

@@ -1,9 +1,9 @@
 # <h1 align="center">undefined</h1>
   
-  ![MIT licence badge](https://img.shields.io/badge/License-MIT-green.svg)
+  ![Affero GPL 3.0 licence badge](https://img.shields.io/badge/License-Affero_GPL_3.0-blue.svg)
 
   ## Description
-  finishing on project on time is near impossible.
+  dfrwfsdf.
 
   ## Table of Contents
   - [Installation Instruction](#installation-instruction)
@@ -14,21 +14,21 @@
   - [Questions](#questions)
 
   ## Installation Instruction
-  you do this and you do that.
+  sfdsdfr.
 
   ## Usage Information
-  same.
+  fergrgvdfs.
 
   ## License
-  This application is licensed under [MIT](!https://opensource.org/licenses/MIT).
+  This application is licensed under [Affero GPL 3.0](https://www.gnu.org/licenses/agpl-3.0.html).
 
   ## Contribution Guidelines
-  by trying hard.
+  refsderfsdf.
 
   ## Test Instruction
-  `
-  npm i inquirer@8.2.4
-  
+  ` <br>
+  sffdfrefdsfs
+
   `
 
   ## Questions
