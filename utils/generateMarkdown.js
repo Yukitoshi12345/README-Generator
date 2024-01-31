@@ -1,8 +1,10 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// TODO: Createing a function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
+  
+  // Initialise an empty string to store the badge Markdown
   let badge = "";
 
+  // Check for various licenses and assign the appropriate badge Markdown
   if (license === "Apache 2.0") {
     badge = "![Apache 2.0 licence badge](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
   }
@@ -46,16 +48,20 @@ function renderLicenseBadge(license) {
     badge = "![None licence badge](https://img.shields.io/badge/License-None-red.svg)";
   }
   else {
+    // Return an empty string if no matching license is found
     return "";
   }
+  // Return the generated badge Markdown
   return badge
 };
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Creating a function that returns the license link
 function renderLicenseLink(license) {
+  
+  // Initialise an empty string to store the link
   let link = "";
 
+  // Check for various licenses and assign the corresponding link
   if (license === "Apache 2.0") {
     link = "https://opensource.org/licenses/Apache-2.0";
   }
@@ -96,24 +102,27 @@ function renderLicenseLink(license) {
     link = "http://unlicense.org/";
   }
   else {
+    // Return an empty string if no matching license is found
     return "";
   }
+  // Return the license link
   return link
 };
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function to create the license section of the README
 function renderLicenseSection(license) {
   if (license === 'None') {
-    return '';
+    return ''; // Return an empty string if no license is specified
   } 
   else {
+    // Create a Markdown string with the license name and link
     return `This project is licensed under the [${license}](${renderLicenseLink(license)}).`;
   }
 };
 
-// TODO: Create a function to generate markdown for README
+// Function to generate the Markdown content for the README
 function generateMarkdown(data) {
+  // Construct the Markdown content using various functions and data
   return `
   ${renderLicenseBadge(data.license)}
 
@@ -152,4 +161,5 @@ function generateMarkdown(data) {
 `;
 }
 
+// Export the generateMarkdown function for use in other modules
 module.exports = generateMarkdown;
