@@ -1,9 +1,9 @@
 
   ![MIT licence badge](https://img.shields.io/badge/License-MIT-green.svg)
 
-  # <h1 align="center"> [insert title] </h1>
+  # <h1 align="center"> Professional README Generator </h1>
 
-  [insert description].
+  This project describes a command-line tool that automatically generates professional READMEs with customisable sections, pre-defined licenses, and clickablle Table of Contents, aiming to save developers time and effort..
 
   ## Table of Contents
   - [Installation Instruction](#installation-instruction)
@@ -14,22 +14,28 @@
   - [Contact Me](#contact-me)
 
   ## Installation Instruction
-  [insert instruction].
+  N/A.
 
   ## Usage Information
-  [insert the use].
+  N/A.
 
   ## License
 
   This project is licensed under the [MIT](https://opensource.org/licenses/MIT).
 
   ## Contribution Guidelines
-  [insert contribution].
+  N/A.
 
   ## Test Instruction
+  #### Command to install node:
   `
-  [insert test instruction]
+  npm install
+  `
+  
+  #### Command to install dependencies:
+  `
+  npm i inquirer@8.2.4
   `
 
   ## Contact Me
-  If you have any questions, feel free to contact me through GitHub: [[insert Github username]](https://github.com/[insert Github username]) or email: [insert contact email].
+  If you have any questions, feel free to contact me through GitHub: [Yukitoshi12345](https://github.com/Yukitoshi12345) or email: classicworld72@gmail.com.

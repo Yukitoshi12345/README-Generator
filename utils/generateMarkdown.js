@@ -152,6 +152,12 @@ function generateMarkdown(data) {
   ${data.ContributionGuidelines}.
 
   ## Test Instruction
+  #### Command to install node:
+  \`
+  npm install
+  \`
+  
+  #### Command to install dependencies:
   \`
   ${data.TestInstruction}
   \`

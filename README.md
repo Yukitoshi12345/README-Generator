@@ -47,6 +47,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Screenshot
 
+![](./assets/images/screenshot.png)
 
 ## Video
 
