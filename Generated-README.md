@@ -1,9 +1,9 @@
-# <h1 align="center">undefined</h1>
-  
-  ![Affero GPL 3.0 licence badge](https://img.shields.io/badge/License-Affero_GPL_3.0-blue.svg)
 
-  ## Description
-  dfrwfsdf.
+  ![MIT licence badge](https://img.shields.io/badge/License-MIT-green.svg)
+
+  # <h1 align="center"> [insert title] </h1>
+
+  [insert description].
 
   ## Table of Contents
   - [Installation Instruction](#installation-instruction)
@@ -11,28 +11,25 @@
   - [License](#license)
   - [Contribution Guidelines](#contribution-guidelines)
   - [Test Instructions](#test-instructions)
-  - [Questions](#questions)
+  - [Contact Me](#contact-me)
 
   ## Installation Instruction
-  sfdsdfr.
+  [insert instruction].
 
   ## Usage Information
-  fergrgvdfs.
+  [insert the use].
 
   ## License
-  This application is licensed under [Affero GPL 3.0](https://www.gnu.org/licenses/agpl-3.0.html).
+
+  This project is licensed under the [MIT](https://opensource.org/licenses/MIT).
 
   ## Contribution Guidelines
-  refsderfsdf.
+  [insert contribution].
 
   ## Test Instruction
-  ` <br>
-  sffdfrefdsfs
-
+  `
+  [insert test instruction]
   `
 
-  ## Questions
-  If you have any questions, please reach out on GitHub
-  [yukitoshi12345](https://github.com/yukitoshi12345)
-  or via Email:
-  classicworld72@gmail.com.
+  ## Contact Me
+  If you have any questions, feel free to contact me through GitHub: [[insert Github username]](https://github.com/[insert Github username]) or email: [insert contact email].
