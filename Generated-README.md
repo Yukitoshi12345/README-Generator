@@ -3,7 +3,7 @@
 
   # <h1 align="center"> Professional README Generator </h1>
 
-  This project describes a command-line tool that automatically generates professional READMEs with customisable sections, pre-defined licenses, and clickablle Table of Contents, aiming to save developers time and effort..
+  This project describes a command-line tool that automatically generates professional READMEs with customisable sections, pre-defined licenses, and clickable Table of Contents, aiming to save developers time and effort.
 
   ## Table of Contents
   - [Installation Instruction](#installation-instruction)
