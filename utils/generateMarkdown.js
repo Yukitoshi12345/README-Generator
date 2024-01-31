@@ -1,4 +1,4 @@
-// TODO: Createing a function that returns a license badge based on which license is passed in
+// TODO: Creating a function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   
   // Initialise an empty string to store the badge Markdown
