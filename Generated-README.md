@@ -1,7 +1,7 @@
 
   ![MIT licence badge](https://img.shields.io/badge/License-MIT-green.svg)
 
-  # <h1 align="center"> Professional README Generator </h1>
+  <h1 align="center"> Professional README Generator </h1>
 
   This project describes a command-line tool that automatically generates professional READMEs with customisable sections, pre-defined licenses, and clickable Table of Contents, aiming to save developers time and effort.
 
