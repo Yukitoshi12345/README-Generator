@@ -126,7 +126,7 @@ function generateMarkdown(data) {
   return `
   ${renderLicenseBadge(data.license)}
 
-  # <h1 align="center"> ${data.Title} </h1>
+  <h1 align="center"> ${data.Title} </h1>
 
   ${data.Description}.
 
