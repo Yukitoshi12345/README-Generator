@@ -50,8 +50,9 @@ THEN I am taken to the corresponding section of the README
 ![](./assets/images/screenshot.png)
 
 ## Video
-A walk through video is [here](https://drive.google.com/file/d/1kn8C6BMHBDrN5JJzv8LRPVSTaPviT088/view)
-<br>
+A walk through video is [here](https://drive.google.com/file/d/1kn8C6BMHBDrN5JJzv8LRPVSTaPviT088/view).
+
+
 ![](./assets/videos/screenrecord.gif)
 
 
