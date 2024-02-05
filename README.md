@@ -1,4 +1,4 @@
-![JavaScript](https://img.shields.io/badge/JavaScript-orange) ![Node.js](https://img.shields.io/badge/Node.js-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![Node.js](https://img.shields.io/badge/Node.js-teal)
 
 <h1 align = "center"> Professional README Generator </h1>
 Introducing a command-line application designed to efficiently generate professional README.md files for new software projects. This tool streamlines the documentation process by prompting users for key information and automatically constructing a well-formatted README with relevant sections like Description, Installation Instructions, Usage Information, Contribution Guidelines, Test Instructions, License, and Questions. Users can customise their README by providing specific content for each section, selecting a license from a pre-defined list, and including their GitHub username and email address for contact. Additionally, the generated README features a clickable Table of Contents for easy navigation. This application aims to save developers time and effort by automating the creation of high-quality project documentation.
