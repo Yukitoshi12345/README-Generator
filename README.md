@@ -11,7 +11,8 @@ Introducing a command-line application designed to efficiently generate professi
 - [Video](#video)
 - [Output](#output)
 - [Central Grader Comments](#central-grader-comments)
-- [Installation](#installation)
+- [Deployed Application](#deployed-application)
+- [License](#license)
 
 ## User Story
 
@@ -76,7 +77,11 @@ Keep up the exceptional work, and continue to impress us with your achievements!
 
 - SK, Centralized Grading.
 
-## Installation
+## Deployed Application
 
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/yukitoshi12345/Professional-README-Generator/](https://github.com/yukitoshi12345/Professional-README-Generator)
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/Professional-README-Generator/blob/main/LICENSE).
